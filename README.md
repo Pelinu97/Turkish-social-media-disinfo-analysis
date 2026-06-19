@@ -1,185 +1,120 @@
-Turkish Social Media Disinformation Analysis
+# Turkish Social Media Disinformation Analysis
 
-OSINT Intelligence Assessment (2022–2024)
-
-
----
-
-📌 About This Project
-
-This project is an open-source intelligence (OSINT) analysis examining pro-Russian disinformation narratives circulating across Turkish social media platforms. The focus is on information operations related to the Russia–Ukraine war, NATO discourse, and Turkish foreign policy positioning.
-
-The objective is to map narrative structures, dissemination patterns, and amplification mechanisms using publicly available data.
-
+### OSINT Intelligence Assessment (2022–2024)
 
 ---
 
-🎯 Objectives
+## About This Project
 
-Identify recurring pro-Russian disinformation narratives in Turkish-language social media ecosystems
+This project is an open-source intelligence (OSINT) analysis examining pro-Russian narrative activity observed across Turkish-language social media platforms following Russia's full-scale invasion of Ukraine. The focus is on publicly documented information operations related to the Russia–Ukraine war, NATO discourse, and Turkish foreign policy debate.
 
-Analyze propagation methods, including coordinated inauthentic behavior patterns
-
-Assess narrative framing techniques used in geopolitical content
-
-Evaluate potential influence pathways on public discourse and policy perception
-
-
+The objective is to map narrative structures, dissemination patterns, and amplification mechanisms using exclusively public, open-source material — not to assert attribution of intent or coordination beyond what the cited sources support.
 
 ---
 
-🗂️ Repository Structure
+## Objectives
 
-/data — Open-source datasets, archived posts, and reference material
-
-/analysis — Structured intelligence assessments and narrative breakdowns
-
-/visuals — Network graphs, timeline charts, and narrative propagation maps
-
-
+- Identify recurring pro-Russian narrative patterns in Turkish-language social media ecosystems, as documented by fact-checking and research organizations
+- Describe propagation patterns, including publicly reported coordinated inauthentic behavior cases
+- Assess narrative framing techniques used in geopolitical content
+- Evaluate plausible (not confirmed) influence pathways on public discourse, clearly distinguishing observed pattern from inferred effect
 
 ---
 
-🔍 Methodology (OSINT Framework)
+## Repository Structure
 
-This analysis is based exclusively on open-source information, including:
-
-Social media content archives (public posts and trends)
-
-Fact-checking organizations and verification platforms
-
-Academic research on information warfare and propaganda
-
-Investigative journalism and media monitoring reports
-
-Digital trace analysis of narrative diffusion patterns
-
-
-Analytical approach:
-
-Narrative analysis (frame detection)
-
-Network diffusion mapping (amplification patterns)
-
-Temporal trend analysis (spike identification)
-
-Actor clustering (account behavior grouping)
-
-
+- `/data` — Links to and summaries of public datasets and archived reporting (e.g., platform transparency reports, fact-check archives). No scraped user posts or personal data are stored in this repository.
+- `/analysis` — Structured intelligence assessments and narrative breakdowns
+- `/visuals` — Network graphs, timeline charts, and narrative propagation maps
 
 ---
 
-📊 Key Analytical Focus Areas
+## Methodology (OSINT Framework)
 
-1. Narrative Construction Patterns
+This analysis is based exclusively on open-source, secondary reporting, including:
 
-Geopolitical framing of NATO and Western institutions
+- Platform transparency reports (Meta, X/Twitter) on coordinated inauthentic behavior
+- Fact-checking organizations and verification platforms (e.g., Teyit)
+- Academic research on information warfare and propaganda
+- Investigative journalism and media monitoring reports
+- Published case studies on narrative diffusion (e.g., DFRLab, EUvsDisinfo)
 
-War-related sentiment shaping (Ukraine conflict narratives)
+**Analytical approach:**
 
-Economic pressure narratives targeting Turkish public discourse
+- Narrative analysis (frame identification, drawn from cited case studies — not original content scraping)
+- Diffusion mapping based on third-party-reported coordination cases
+- Temporal trend analysis (mapping narrative activity against publicly dated geopolitical events)
+- Actor categorization (descriptive grouping based on published findings, not independent account-level investigation)
 
-
-
----
-
-2. Amplification Mechanisms
-
-Coordinated reposting and engagement clustering
-
-High-frequency account activity patterns
-
-Cross-platform narrative synchronization
-
-
+> **Note on scope:** This project synthesizes and structures existing public reporting; it does not involve independent collection or analysis of social media data at the account or post level. Findings are only as strong as the underlying secondary sources, and are presented accordingly.
 
 ---
 
-3. Temporal Dynamics
+## Key Analytical Focus Areas
 
-Spike analysis during major geopolitical events
+### 1. Narrative Construction Patterns
+- Geopolitical framing of NATO and Western institutions in Turkish-language discourse
+- War-related narrative framing connected to the Ukraine conflict
+- Economic-vulnerability narratives referencing Turkish public discourse
 
-Correlation between real-world events and online narrative surges
+### 2. Amplification Mechanisms (as documented by third parties)
+- Publicly reported reposting and engagement clustering
+- Cross-platform narrative synchronization noted in existing case studies
 
-
-
----
-
-📁 Visual Intelligence Products
-
-Planned analytical visuals include:
-
-Narrative network graphs (actor–message relationships)
-
-Timeline of disinformation spikes (2022–2024)
-
-Cross-platform propagation heatmaps
-
-Cluster analysis of coordinated accounts
-
-
+### 3. Temporal Dynamics
+- Mapping of narrative activity against major geopolitical events
+- Identification of reporting gaps and data-availability limitations across time periods
 
 ---
 
-📊 Analytical Findings (Preliminary Structure)
+## Visual Intelligence Products
 
-Finding 1: Narrative consistency across multiple platforms suggests structured amplification patterns
+Planned analytical visuals (see `/visuals`):
 
-Confidence: MEDIUM
-
-Based on repeated thematic alignment across observed content clusters
-
-
-Finding 2: Disinformation content peaks correlate with major geopolitical events
-
-Confidence: HIGH
-
-Supported by temporal trend analysis of narrative spikes
-
-
-Finding 3: Engagement patterns indicate potential coordinated amplification behavior
-
-Confidence: MEDIUM
-
-Requires deeper dataset-level validation
-
-
+- Narrative network graphs (actor–message relationships, sourced from documented cases)
+- Timeline of reported disinformation activity (2022–2024)
+- Cross-platform propagation diagrams
+- Descriptive clustering of documented coordinated accounts (no original account-level data collection)
 
 ---
 
-⚠️ Limitations
+## Analytical Findings (Preliminary)
 
-Only publicly available data is used
+**Finding 1: Narrative themes recur consistently across multiple platforms and time periods, as documented in cited case studies.**
+- Confidence: Medium
+- Basis: Repeated thematic alignment across case studies from EUvsDisinfo, DFRLab, and Teyit covering 2022–2023. This reflects consistency in *reported* cases, not an independent census of all relevant content, and does not by itself establish coordination.
 
-Private messaging platforms are not included
+**Finding 2: Reported disinformation activity clusters around major geopolitical events (e.g., invasion onset, grain corridor negotiations).**
+- Confidence: Medium-High
+- Basis: Temporal alignment is consistently noted across multiple independent sources (EUvsDisinfo, BBC Monitoring, Teyit). Downgraded from "High" because available reporting captures *documented* spikes, not a complete time series, so absence of reporting in a given period cannot be read as absence of activity.
 
-Attribution of intent is not asserted, only behavioral patterns are analyzed
-
-Dataset completeness may vary across platforms
-
-
-
----
-
-📚 Sources
-
-https://www.disinformationindex.org/
-
-https://www.euvsdisinfo.eu/
-
-https://www.nato.int/cps/en/natohq/topics_49635.htm
-
-https://www.bellingcat.com/
-
-https://www.rand.org/topics/disinformation.html
-
-https://www.osce.org/fom
-
-
+**Finding 3: Some publicly reported account behavior is consistent with coordinated amplification.**
+- Confidence: Low-Medium
+- Basis: Drawn from specific platform takedown disclosures (Meta, X/Twitter transparency reports). These confirm coordination *in the disclosed cases only* and should not be generalized to the broader narrative ecosystem without further evidence.
 
 ---
 
-🧠 Analytical Note
+## Limitations
 
-This project focuses on pattern recognition and narrative analysis, not on content moderation or political attribution. All conclusions are based on observable open-source behavior patterns.
+- Only publicly available, secondary-source data is used; no original social media scraping or account-level investigation was conducted
+- Private messaging platforms are not included and are likely underrepresented in available reporting
+- Attribution of intent or state direction is not asserted — only documented behavioral patterns, as reported by third parties, are described
+- Dataset and reporting completeness varies significantly across platforms and time periods; gaps in available case studies should not be read as gaps in actual activity
+- Findings reflect the scope and quality of cited secondary sources and cannot exceed their reliability
 
+---
+
+## Sources
+
+- EUvsDisinfo — https://www.euvsdisinfo.eu/
+- DFRLab (Atlantic Council) — https://www.disinformationindex.org/ *(verify current org/URL before citing)*
+- Teyit — https://teyit.org/
+- Bellingcat — https://www.bellingcat.com/
+- NATO StratCom COE — https://www.nato.int/cps/en/natohq/topics_49635.htm
+- RAND Corporation, Disinformation research — https://www.rand.org/topics/disinformation.html
+
+---
+
+## Analytical Note
+
+This project focuses on structuring and synthesizing existing open-source reporting on narrative patterns — not on original data collection, content moderation, or political attribution. All conclusions are bounded by the scope and limitations of the underlying secondary sources and should be read as indicative rather than definitive.
