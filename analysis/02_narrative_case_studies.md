@@ -1,92 +1,123 @@
-# Disinformation Narrative Case Studies: Turkish Social Media
+## Disinformation Narrative Case Studies: Turkish Social Media
 
 ## Overview
+This document presents four case studies drawn from publicly available reporting and fact-checking archives. Each summarizes documented activity as reported by named third-party organizations. Confidence levels reflect the strength and independence of corroborating sources, not the analyst's own investigation.
 
-This section presents open-source case studies of documented pro-Russian disinformation campaigns targeting Turkish social media, based on publicly available research and fact-checking records.
 
----
+Case Study 1: Sputnik Türkiye and RT Turkish Operations (2022)
 
-## Case Study 1: Sputnik Türkiye and RT Turkish Operations (2022)
+Confidence: Medium-High — corroborated by platform action and multiple fact-checking sources, though full content reach cannot be independently verified from open sources.
 
-### Background
-Russian state media outlets Sputnik Türkiye and RT Turkish maintained active Turkish-language social media presences following the invasion of Ukraine, serving as primary amplification nodes for pro-Russian narratives.
+Background
 
-### Key Findings
-- Sputnik Türkiye Twitter account suspended in March 2022 following EU sanctions
-- Content continued circulating through reposting networks and Telegram channels
-- Consistent messaging framing Ukraine conflict as NATO provocation
-- Turkish-language content tailored to exploit domestic political sensitivities
+Russian state media outlets Sputnik Türkiye and RT Turkish maintained active Turkish-language social media presences following the invasion of Ukraine.
 
-### OSINT Sources
-- EU DisinfoLab — RT and Sputnik network analysis
-- Twitter/X transparency reports
-- Teyit fact-checking archive
+Key Findings
 
----
 
-## Case Study 2: Coordinated Inauthentic Behavior — Meta Takedown (2023)
+Sputnik Türkiye's Twitter/X account was suspended in March 2022 following EU sanctions on Russian state media
+Reporting indicates content continued circulating through reposting networks and Telegram channels after the suspension
+Teyit and other fact-checkers documented recurring framing of the Ukraine conflict as NATO-provoked
 
-### Background
-Meta (Facebook/Instagram) identified and removed a network of coordinated inauthentic accounts operating in Turkish, targeting Turkish audiences with pro-Russian content.
 
-### Key Findings
-- Network operated fake accounts posing as Turkish citizens and journalists
-- Content focused on NATO criticism, Western sanctions framing, and Ukrainian military losses
-- Cross-platform coordination between Facebook, Instagram, and Telegram identified
-- Network linked to broader Eastern European disinformation infrastructure
+Sources
 
-### OSINT Sources
-- Meta Transparency Report Q2 2023
-- Stanford Internet Observatory analysis
-- DFRLab — coordinated inauthentic behavior database
 
----
+EU DisinfoLab — RT and Sputnik network analysis
+Twitter/X transparency reports (sanctions-related account actions)
+Teyit fact-checking archive
 
-## Case Study 3: Bayraktar TB2 Disinformation Campaign (2022)
 
-### Background
-The Bayraktar TB2 drone became a symbol of Ukrainian resistance, prompting a significant Russian disinformation effort to undermine its perceived effectiveness — with specific targeting of Turkish audiences given domestic pride in the platform.
 
-### Key Findings
-- Coordinated campaign claiming TB2 drones were ineffective and suffering heavy losses
-- Fake combat footage circulated on Turkish social media platforms
-- Targeting of Turkish defense industry forums and military enthusiast communities
-- Teyit debunked multiple viral false claims about TB2 performance
+Case Study 2: Coordinated Inauthentic Behavior — Meta Takedown (2023)
 
-### OSINT Sources
-- Teyit — TB2 fact-check archive
-- Bellingcat — drone warfare open-source tracking
-- Oryx — verified equipment loss database
+Confidence: Medium-High for the disclosed network; Low for generalizing beyond it. Meta's own disclosures confirm coordination in this specific case; this should not be read as evidence of a broader, ongoing coordinated ecosystem.
 
----
+Background
 
-## Case Study 4: Grain Crisis Blame Shifting (2022–2023)
+Meta identified and removed a network of accounts exhibiting coordinated inauthentic behavior, operating in Turkish and targeting Turkish-speaking audiences.
 
-### Background
-Following Russia's blockade of Ukrainian ports and subsequent withdrawal from the Black Sea Grain Initiative, a disinformation campaign sought to shift blame onto Ukraine and Western countries — targeting Turkish audiences given Turkey's mediating role.
+Key Findings (per Meta's disclosure)
 
-### Key Findings
-- Narrative framed Russia's grain blockade as a Western conspiracy
-- Turkish mediator role exploited to suggest Turkey was being manipulated by NATO
-- Content amplified by both Russian state media and domestic Eurasianist networks
-- Coordinated across Telegram, Twitter, and YouTube simultaneously
 
-### OSINT Sources
-- EU vs Disinfo — grain crisis case database
-- Teyit — grain corridor fact-checks
-- BBC Monitoring — Turkish social media analysis
+Accounts posed as Turkish citizens and journalists
+Content focused on NATO criticism, Western sanctions framing, and claims about Ukrainian military losses
+Meta identified cross-platform activity spanning Facebook, Instagram, and Telegram
+Meta's report linked the network to broader Eastern European disinformation infrastructure it had previously tracked
 
----
 
-## Summary
+Sources
 
-These case studies demonstrate the systematic and targeted nature of pro-Russian disinformation operations in the Turkish information environment. The campaigns consistently exploit domestic political fault lines, historical narratives, and Turkey's unique geopolitical position to maximize narrative impact.
 
-## Sources
+Meta Transparency Report, Q2 2023
+Stanford Internet Observatory analysis of the disclosed network
+DFRLab — coordinated inauthentic behavior database
 
-- Meta Transparency Reports 2022–2023
-- Stanford Internet Observatory — Public datasets
-- Teyit — [teyit.org](https://teyit.org)
-- EU vs Disinfo — [euvsdisinfo.eu](https://euvsdisinfo.eu)
-- Bellingcat — [bellingcat.com](https://www.bellingcat.com)
-- Oryx — [oryxspioenkop.com](https://www.oryxspioenkop.com)
+
+
+Case Study 3: Bayraktar TB2 Narrative Disputes (2022)
+
+Confidence: Medium. Fact-checkers documented specific false claims; the existence of a centrally coordinated "campaign" (versus organic, dispersed pro-Russian commentary) is not established by available sources.
+
+Background
+
+The Bayraktar TB2 drone, used by Ukrainian forces and a source of domestic pride in Turkey, became the subject of competing narrative claims following the invasion.
+
+Key Findings
+
+
+Teyit documented multiple viral claims about TB2 combat losses that were subsequently found to be false or unverifiable
+Some circulated combat footage was identified by fact-checkers as misattributed or out of context
+Discussion was notably concentrated in Turkish defense-industry and military-enthusiast online communities
+Oryx's open-source equipment-loss tracking provides an independent reference point against which specific loss claims can be checked, though Oryx itself only documents visually confirmed losses and is not a complete record
+
+
+Sources
+
+
+Teyit — TB2-related fact-check archive
+Bellingcat — open-source tracking methodology for conflict imagery
+Oryx — visually confirmed equipment losses database
+
+
+
+Case Study 4: Black Sea Grain Corridor Narratives (2022–2023)
+
+Confidence: Medium. Multiple independent outlets documented diverging blame narratives; attributing specific narratives to specific organized actors (versus general geopolitical commentary) requires more granular sourcing than is available here.
+
+Background
+
+The suspension and renegotiation of the Black Sea Grain Initiative coincided with competing public narratives about responsibility for supply disruptions, with Turkey's mediating role specifically referenced in several of them.
+
+Key Findings
+
+
+EUvsDisinfo's case database and BBC Monitoring both documented narratives framing Western actors or Ukraine as responsible for disruptions
+Some commentary characterized Turkey's mediating role as constrained by NATO pressure — a framing noted in source reporting rather than independently verified here
+Reporting describes activity across Telegram, Twitter/X, and YouTube during the relevant negotiation periods, though simultaneous cross-platform activity is not by itself evidence of coordination
+
+
+Sources
+
+
+EUvsDisinfo — grain crisis case entries
+Teyit — grain corridor–related fact-checks
+BBC Monitoring — Turkish social media analysis
+
+
+
+Summary
+
+These case studies illustrate recurring themes and some specific, source-confirmed instances of coordinated account behavior (Case Study 2) and platform enforcement action (Case Study 1) within the Turkish-language information environment. Conclusions are bounded by what each cited source specifically confirms; broader claims about the scale or centralized direction of pro-Russian narrative activity in Turkey would require dataset-level analysis beyond the scope of this document.
+
+Sources
+
+
+Meta Transparency Reports, 2022–2023
+Stanford Internet Observatory — public datasets
+Teyit — teyit.org
+EUvsDisinfo — euvsdisinfo.eu
+EU DisinfoLab — disinfo.eu
+Bellingcat — bellingcat.com
+Oryx — oryxspioenkop.com
+BBC Monitoring — monitoring.bbc.co.uk
